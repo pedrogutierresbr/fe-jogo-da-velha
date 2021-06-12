@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game-area{
+    margin: 80px auto;
+    text-align: center;
+}
+
+.stage{
+    margin-top: 30px;
+}
+
+.square{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+}
+
+.o{
+    position: relative;
+}
+
+.o::after{
+    position: absolute;
+    content: '\2B55';
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x::after{
+    position: absolute;
+    content: '\274C';
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
