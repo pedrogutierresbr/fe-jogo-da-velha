@@ -3,7 +3,7 @@
 
 ##   About the project
  
-Tic-Tac-Toe game project made applying the contents learned in the programmerBR course. Adding score table, reset command and tie detector features as an improvement.
+Tic-Tac-Toe game project made applying the contents learned in the programadorBR course. Adding score table, reset command and tie detector features as an improvement.
 
 To see the **web version**, click here: [https://jogodavelhapersonalizado.netlify.app/](https://churrascometrolegal.netlify.app/)
 
