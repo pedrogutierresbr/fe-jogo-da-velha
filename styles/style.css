@@ -7,17 +7,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html{
-    background: url('../assets/white-abstract-background.jpg') no-repeat center center / cover ;
-}
-
 body{
-   
+    background: url('../assets/white-abstract-background.jpg') no-repeat center center / cover ;
     position: relative;
 }
 
 .game-area{
-    margin: 110px auto 0;
+    margin: 180px auto 0;
     text-align: center;
 }
 
@@ -110,5 +106,10 @@ button:hover{
 }
 
 .player h3{
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.player p{
+    font-size: 20px;
+    font-weight: bold;
 }

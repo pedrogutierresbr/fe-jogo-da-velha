@@ -1,4 +1,6 @@
-let players = [0x1F534,0x274C];
+let player1 = document.getElementById('player1');
+let player2 = document.getElementById('player2');
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -17,8 +19,13 @@ function handleClick(event){
 
     if(handleMove(position)){
         setTimeout(() => {  
-            alert(`O jogo acabou! \nO vencedor foi ${playerTime}`);
+            if(playerTime == 0){
+                alert("O jogo acabou! \nO vencedor foi o jogador " + String.fromCodePoint(0x2B55));
+            }else{
+                alert("O jogo acabou! \nO vencedor foi o jogador " + String.fromCodePoint(0x274c));
+            }     
         }, 20);
+        renderScore();
     };
     updateSquare(position);
 };
@@ -44,3 +51,8 @@ function clearStage(){
 }
 
 document.getElementById('restart').onclick = restartGame;
+
+function renderScore(){
+    player1.innerHTML = `${score[0]}`
+    player2.innerHTML = `${score[1]}`
+}
