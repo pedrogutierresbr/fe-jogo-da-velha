@@ -26,7 +26,9 @@ function handleClick(event){
             }     
         }, 20);
         renderScore();
-    };
+    }else{
+        isDraw();
+    }
     updateSquare(position);
 };
 
@@ -55,4 +57,18 @@ document.getElementById('restart').onclick = restartGame;
 function renderScore(){
     player1.innerHTML = `${score[0]}`
     player2.innerHTML = `${score[1]}`
+}
+
+function isDraw(){
+    let draw = 0;
+
+    for(let pos of board){
+        draw += (pos !== '') ? 1 : 0; 
+    }
+
+    if(draw === 9){
+        setTimeout(() => {
+            alert("O jogo acabou! \nDeu empate");
+        }, 20);
+    }
 }

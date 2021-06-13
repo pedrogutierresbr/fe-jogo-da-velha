@@ -40,5 +40,5 @@ function isWin(){
     }
 
     return false;
-}
+};
 
