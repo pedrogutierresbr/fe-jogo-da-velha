@@ -19,6 +19,10 @@ To see the **web version**, click here: [https://jogodavelhapersonalizado.netlif
 -   CSS
 -   JavaScript
 
+##  Software design pattern used
+
+-   MVC (Model–view–controller)
+
 ##  How to run
 
 ```bash
