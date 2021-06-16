@@ -1,4 +1,4 @@
-# Calculator
+# Tic-Tac-Toe
 
 
 ##   About the project
