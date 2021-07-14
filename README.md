@@ -27,7 +27,7 @@ To see the **web version**, click here: [https://jogodavelhapersonalizado.netlif
 
 ```bash
 # clone the repository
-https://github.com/pedrogutierresbr/jogo-da-velha.git
+git clone https://github.com/pedrogutierresbr/jogo-da-velha.git
 ```
 
 
